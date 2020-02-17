@@ -1,0 +1,107 @@
+header {
+    width: 480px;
+    height: 75px;
+    border-style: groove;
+    background-color: burlywood;
+    line-height: 75px;
+}
+
+aside {
+    width: 480px;
+    height: 150px;
+    border-style: groove;
+    background-color: chartreuse;
+    line-height: 150px;
+
+}
+
+article {
+    width: 480px;
+    height: 125px;
+    border-style: groove;
+    background-color: red;
+    line-height: 125px;
+
+}
+
+div {
+    width: 240px;
+    height: 250px;
+    border-style: groove;
+    background-color: royalblue;
+    line-height: 250px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer {
+    width: 480px;
+    height: 80px;
+    border-style: groove;
+    background-color: hotpink;
+    line-height: 80px;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    header {
+        width: 960px;
+        height: 100px;
+        border-style: groove;
+        background-color: navy;
+        line-height: 100px;
+        border-width: .2px;
+    }
+    
+    aside {
+        width: 200px;
+        height: 600px;
+        border-style: groove;
+        background-color: fuchsia;
+        line-height: 600px;
+        position: absolute;
+    
+    }
+    
+    article {
+        width: 380px;
+        height: 200px;
+        border-style: groove;
+        background-color: firebrick;
+        line-height: 200px;
+        float: right;
+    
+    }
+    
+    div {
+        width: 190px;
+        height: 250px;
+        border-style: groove;
+        background-color: forestgreen;
+        line-height: 250px;
+    }
+    
+    .left {
+        float: left;
+    }
+    
+    .right {
+        float: right;
+    }
+    
+    footer {
+        width: 760px;
+        height: 150px;
+        border-style: groove;
+        background-color: orange;
+        line-height: 150px;
+        clear: both;
+        float: right;
+    }
+}

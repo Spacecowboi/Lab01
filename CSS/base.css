@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+body {
+    border-style: solid;
+    width: 487px;
+}
+
+@media(min-width: 768px) {
+    body {
+        border-style: groove;
+        width: 965px;
+    }
+}

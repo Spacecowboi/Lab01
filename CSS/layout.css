@@ -12,6 +12,7 @@ aside {
     border-style: groove;
     background-color: chartreuse;
     line-height: 150px;
+    
 
 }
 
@@ -49,7 +50,7 @@ footer {
     clear: both;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     header {
         width: 960px;
         height: 100px;
